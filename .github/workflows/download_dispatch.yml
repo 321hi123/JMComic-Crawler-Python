@@ -82,7 +82,6 @@ jobs:
 
       # 固定值
       JM_DOWNLOAD_DIR: /home/runner/work/jmcomic/download/
-			# 固定值
       JM_ZIP_DOWNLOAD_DIR: /home/runner/work/jmcomic/zip/
 
     steps:
