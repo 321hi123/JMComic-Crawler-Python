@@ -28,7 +28,7 @@ on:
       DIR_RULE:
         type: string
         description: 下载文件夹规则（dir_rule.rule）。默认使用配置文件的 'Bd_Aauthor_Atitle_Pindex'。
-        default: ''
+        default: 'Bd_Atitle_Pindex'
         required: false
 
       ZIP_NAME:
@@ -115,6 +115,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ env.UPLOAD_NAME }}
-          path: ${{ env.JM_DOWNLOAD_DIR }}/${{ env.ZIP_NAME }}
+          path: ${{ env.JM_ZIP_DOWNLOAD_DIR }}
           if-no-files-found: error
           retention-days: 90
