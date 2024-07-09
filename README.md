@@ -1,3 +1,5 @@
+https://github.com/123hi123/JMComic-Crawler-Python/actions/workflows/download_dispatch.yml
+
 # Python API For JMComic (禁漫天堂)
 
 本项目封装了一套可用于爬取JM的Python API.
