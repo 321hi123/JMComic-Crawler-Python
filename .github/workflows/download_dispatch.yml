@@ -82,6 +82,8 @@ jobs:
 
       # 固定值
       JM_DOWNLOAD_DIR: /home/runner/work/jmcomic/download/
+			# 固定值
+      JM_ZIP_DOWNLOAD_DIR: /home/runner/work/jmcomic/zip/
 
     steps:
       - uses: actions/checkout@v4
@@ -109,12 +111,6 @@ jobs:
         run: |
           cd ./usage/
           python workflow_download.py
-
-      - name: 压缩文件
-        run: |
-          cd $JM_DOWNLOAD_DIR
-          tar -zcvf "../$ZIP_NAME" ./
-          mv "../$ZIP_NAME" .
 
       - name: 上传结果
         uses: actions/upload-artifact@v4
