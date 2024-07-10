@@ -23,8 +23,8 @@ plugins:
 
     - plugin: login # 登录插件
       kwargs:
-        username: ${JM_USERNAME}
-        password: ${JM_PASSWORD}
+        username: joegg
+        password: 12345678joe
 
   after_download: # 全部下载完成以后
     - plugin: send_qq_email # 发送邮件，如果未配置下面的前3个环境变量则不会发送。
