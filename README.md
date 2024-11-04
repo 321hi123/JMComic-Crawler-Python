@@ -1,6 +1,21 @@
 # action 使用網址
 https://github.com/123hi123/JMComic-Crawler-Python/actions/workflows/download_dispatch.yml
 
+
+# export 分析的py 還可以組建好評資料庫
+使用非常簡單
+將export...py下載
+加入一個csv資料夾
+在當中放入所有的csv 資料夾
+執行Py
+new.txt 和repeat.txt 就是這次掃出來的本本們了
+![image](https://github.com/user-attachments/assets/5d6c5b25-6856-4a63-9938-83e44077f7d7)
+
+
+
+
+
+
 # Python API For JMComic (禁漫天堂)
 
 本项目封装了一套可用于爬取JM的Python API.
